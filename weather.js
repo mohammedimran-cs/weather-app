@@ -33,23 +33,23 @@ function checkWeather(inputValue) {
 
         switch (climate) {
             case "Clear":
-                document.getElementById("image").setAttribute("src","./images/Clear.png")
+                document.getElementById("image").setAttribute("src","./Clear.png")
                 break;
 
             case "Clouds":
-                document.getElementById("image").setAttribute("src","./images/Clouds.png")
+                document.getElementById("image").setAttribute("src","./Clouds.png")
                 break;
 
             case "Drizzle":
-                document.getElementById("image").setAttribute("src","./images/Drizzle.png")
+                document.getElementById("image").setAttribute("src","./Drizzle.png")
                 break;
 
             case "Mist":
-                document.getElementById("image").setAttribute("src","./images/Mist.png")
+                document.getElementById("image").setAttribute("src","./Mist.png")
                 break;
 
             case "Rain":
-                document.getElementById("image").setAttribute("src","./images/Rain.png")
+                document.getElementById("image").setAttribute("src","./Rain.png")
                 break;
         }   
 
